@@ -10,7 +10,7 @@ const db = mysql.createConnection({
 
 db.connect(error => {
   if (error) {
-    console.error("my sql connection error:", error);
+    console.error("MySQL connection error:", error);
   } else {
     console.log("connected to my sql-helpdesk_db");
   }
